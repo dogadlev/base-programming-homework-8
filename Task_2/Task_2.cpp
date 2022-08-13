@@ -1,4 +1,4 @@
-// Homework 8. Task 2.
+п»ї// Homework 8. Task 2.
 
 #include <iostream>
 #include <string>
@@ -21,7 +21,7 @@ int main(int argc, char** argv)
     setlocale(LC_ALL, "Russian");
     try 
     {
-      Figure figure("Фигура", 0);
+      Figure figure("Р¤РёРіСѓСЂР°", 0);
       print_info(&figure);
     }
     catch (const BadFig& bf)
@@ -30,7 +30,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        Triangle triangle("Треугольник", 10, 20, 30, 60, 40, 80);
+        Triangle triangle("РўСЂРµСѓРіРѕР»СЊРЅРёРє", 10, 20, 30, 60, 40, 80);
         print_info(&triangle);
     }
     catch (const BadFig& bf)
@@ -39,7 +39,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        RightTriangle rightTriangle("Прямоугольный треугольник",10, 20, 30, 30, 60, 90);
+        RightTriangle rightTriangle("РџСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє",10, 20, 30, 30, 60, 90);
         print_info(&rightTriangle);
     }
     catch (const BadFig& bf)
@@ -48,7 +48,7 @@ int main(int argc, char** argv)
     }
     try 
     {
-        IsoscelesTriangle isoscelesTriangle("Равнобедренный треугольник", 10, 20, 10, 50, 60, 50);
+        IsoscelesTriangle isoscelesTriangle("Р Р°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє", 10, 20, 10, 50, 60, 50);
         print_info(&isoscelesTriangle);
     }
     catch (const BadFig& bf)
@@ -57,7 +57,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        EquilateralTriangle equilateralTriangle("Равносторонний треугольник", 30, 30, 30, 60, 60, 60);
+        EquilateralTriangle equilateralTriangle("Р Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє", 30, 30, 30, 60, 60, 60);
         print_info(&equilateralTriangle);
     }
     catch (const BadFig& bf)
@@ -66,7 +66,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        Quadrangle quadrangle("Четырехугольник", 10, 20, 30, 40, 50, 60, 70, 80);
+        Quadrangle quadrangle("Р§РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРє", 10, 20, 30, 40, 50, 60, 70, 80);
         print_info(&quadrangle);
     }
     catch (const BadFig& bf)
@@ -75,7 +75,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        Rectangle rectangle("Прямоугольник", 10, 20, 10, 20, 50, 60, 70, 80);
+        Rectangle rectangle("РџСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє", 10, 20, 10, 20, 50, 60, 70, 80);
         print_info(&rectangle);
     }
     catch (const BadFig& bf)
@@ -84,7 +84,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        Square square("Квадрат", 20, 20, 20, 20, 90, 90, 90, 90);
+        Square square("РљРІР°РґСЂР°С‚", 20, 20, 20, 20, 90, 90, 90, 90);
         print_info(&square);
     }
     catch (const BadFig& bf)
@@ -93,7 +93,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        Parallelogram parallelogram("Параллелограмм", 20, 30, 20, 30, 50, 60, 70, 80);
+        Parallelogram parallelogram("РџР°СЂР°Р»Р»РµР»РѕРіСЂР°РјРј", 20, 30, 20, 30, 50, 60, 70, 80);
         print_info(&parallelogram);
     }
     catch (const BadFig& bf)
@@ -102,7 +102,7 @@ int main(int argc, char** argv)
     }
     try
     {
-        Rhombus rhombus("Ромб", 30, 30, 30, 30, 40, 50, 40, 50);
+        Rhombus rhombus("Р РѕРјР±", 30, 30, 30, 30, 40, 50, 40, 50);
         print_info(&rhombus);
     }
     catch (const BadFig& bf)
